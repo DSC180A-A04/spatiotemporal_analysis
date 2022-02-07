@@ -19,4 +19,4 @@ conformal_intervals = conformal_prediction(model,
                                            significance=0.1)
 
 # visualize prediction results
-plot(x_cal, y_cal, conformal_intervals, quantiles)
+plot(x_cal, y_cal, conformal_intervals, quantiles, save_plot=True)

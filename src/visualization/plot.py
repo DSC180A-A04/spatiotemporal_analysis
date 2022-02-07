@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def plot(x_cal, y_cal, conformal_intervals, quantiles):
+def plot(x_cal, y_cal, conformal_intervals, quantiles, save_plot=False):
 
     cycle_colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
     color_index = [2, 1, 3]
@@ -13,6 +13,9 @@ def plot(x_cal, y_cal, conformal_intervals, quantiles):
                  conformal_intervals[:, i],
                  c=cycle_colors[c],
                  label=f"p={quantiles[i]}")
-
     plt.legend()
+
+    if save_plot:
+        plt.savefig("conformal_prediction.png")
+
     plt.show()
