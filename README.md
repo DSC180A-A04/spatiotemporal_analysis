@@ -17,7 +17,7 @@ We make inference with `[0.05, 0.5, 0.95]` confidence levels.
 pip install -r requirements.txt
 ```
 
-3. Train models and make predictions
+3. Train models and make predictions. This will generate a `conformal_prediction.png` plot in the root directory.
 
 ```bash
 python run.py
