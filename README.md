@@ -11,13 +11,23 @@ We make inference with `[0.05, 0.5, 0.95]` confidence levels.
 
 1. Create a virtual environment
 
-2. Install dependencies
+```bash
+python3 -m venv venv
+```
+
+2. Activate the virtual environment
+
+```bash
+source venv/bin/activate # for mac
+```
+
+3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Train models and make predictions. This will generate a `conformal_prediction.png` plot in the root directory.
+4. Train models and make predictions. This will generate a `conformal_prediction.png` plot in the root directory.
 
 ```bash
 python run.py
