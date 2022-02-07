@@ -20,6 +20,12 @@ python3 -m venv venv
 ```bash
 source venv/bin/activate # for mac
 ```
+<<<<<<< Updated upstream
+=======
+```bash
+venv/Scripts/activate # for windows
+```
+>>>>>>> Stashed changes
 
 3. Install dependencies
 
