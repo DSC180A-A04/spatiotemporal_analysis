@@ -6,3 +6,6 @@ lightning_logs
 
 # python
 *.pyc
+
+# analysis
+plots

@@ -1,1 +1,1 @@
-from src.data.make_datasets import make_datasets
+from src.data.make_datasets import make_datasets, normalize
