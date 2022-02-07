@@ -1,2 +1,8 @@
 # venv
 venv
+
+# pytorch-lightning
+lightning_logs
+
+# python
+*.pyc
