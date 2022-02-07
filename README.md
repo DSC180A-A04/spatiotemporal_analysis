@@ -7,11 +7,11 @@
 2. Install dependencies
 
 ```bash
->>> pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Train models and make predictions
 
 ```bash
->>> python run.py
+python run.py
 ```
