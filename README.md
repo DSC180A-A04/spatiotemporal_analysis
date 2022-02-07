@@ -4,7 +4,7 @@ The analysis in this repo uses uncertainty quantification feature that we have d
 
 Example output:
 
-We make inference with `[0.05, 0.5, 0.95]` confidence levels.
+Use conformal prediction to construct a conformal confidence band consisting of quantiles `[0.025, 0.5, 0.975]` for a 95% confidence level.
 ![uncertainty_quantification](./static/uncertainty_quantification.png)
 
 ## Getting Started
@@ -23,7 +23,6 @@ source venv/bin/activate # for mac
 ```bash
 venv/Scripts/activate # for windows
 ```
-
 3. Install dependencies
 
 ```bash
